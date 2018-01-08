@@ -1,14 +1,13 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-
-const Article = props => {
-  return React.createElement('div', {}, [
-    React.createElement('h1', {}, props.title),
-    React.createElement('p', {}, props.text)
-  ]);
-};
+import React from 'react';
+import Navbar from './Navbar';
 
 ReactDOM.render(
-  Article({ title: 'Some News', text: 'probably something bad...' }),
+  <Navbar
+    color="green"
+    icon="paint brush"
+    title="Painterest"
+    description="our app"
+  />,
   document.getElementById('main')
 );
