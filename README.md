@@ -1,0 +1,5 @@
+- Updating the DOM to reflect changes in your data 
+- File structure
+- Determining what data the frontend app needed from the api
+- Resolving promises in a timely manner
+- Intervals
